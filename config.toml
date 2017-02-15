@@ -35,7 +35,7 @@ googleAnalytics = ""
     	accent  = "red"
 
     [params.font]
-    	text = "Roboto"
+    	text = "PT Sans"
     	code = "Ubuntu Mono"
 
 
@@ -59,6 +59,11 @@ googleAnalytics = ""
 	name   = "Getting started"
 	url    = "getting-started/"
 	weight = 10
+
+[[menu.main]]
+	name   = "Writing data"
+	url    = "writing-data/"
+	weight = 15
 
 [[menu.main]]
 	name   = "Adding content"

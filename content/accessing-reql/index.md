@@ -109,8 +109,8 @@ err := session.Reconnect(r.CloseOpts{
 
 ## Server
 
-The server function of the *r.Session struct returns
-the server name and identifier.
+The server function of the r.Session struct returns
+the name and identifier of the server.
 
 > session.Server() -> (r.ServerResponse, error)
 
